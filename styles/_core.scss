@@ -1,0 +1,53 @@
+$nav-link-col: #373737;
+
+* {
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  font-size: 100%;
+}
+
+.center {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Metropolis Medium";
+  src: url("../fonts/metropolis/Metropolis-Medium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Social";
+  src: url("../fonts/social/Socialico-Regular.ttf");
+}
+
+%round-button-violet {
+  display: inline-block;
+  padding: 20px 50px;
+  background-color: #7273f1;
+  border: 3px solid transparent;
+  text-decoration: none;
+  border-radius: 30px;
+  color: #fff;
+  &:hover {
+    border-color: #7273f1;
+    color: #7273f1;
+    background-color: transparent;
+  }
+}
+
+%nav-link {
+  font-family: "Metropolis Medium";
+  font-size: 1.0625em;
+  color: $nav-link-col;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

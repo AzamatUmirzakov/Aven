@@ -1,0 +1,23 @@
+header.page-header {
+  margin-bottom: 100px;
+}
+
+div.header-inside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+div.header-logo {
+  display: inline-block;
+}
+
+nav.header-nav {
+  width: 20%;
+  display: inline-flex;
+  justify-content: space-between;
+  a {
+    @extend %nav-link;
+  }
+}

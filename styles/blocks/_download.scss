@@ -1,0 +1,45 @@
+$download-text-col: #5b5b5b;
+
+section.download {
+  padding: 100px 0;
+}
+
+div.download-inside {
+  text-align: center;
+}
+
+header.download-header {
+  display: inline-block;
+  font-family: "Metropolis Medium";
+  margin-bottom: 140px;
+  line-height: 54px;
+  max-width: 725px;
+  text-align: center;
+  h1 {
+    font-weight: normal;
+    font-size: 2.3125em;
+  }
+}
+
+div.download-text {
+  display: inline-block;
+  p {
+    font-family: "Metropolis Medium";
+    color: $download-text-col;
+    font-size: 1.375em;
+    line-height: 40px;
+    max-width: 1140px;
+    margin-top: 120px;
+    margin-bottom: 90px;
+  }
+  div.download-buttons {
+    display: flex;
+    margin: 0 auto;
+    max-width: 500px;
+    justify-content: space-between;
+    a > img {
+      width: 200px;
+      height: 100%;
+    }
+  }
+}

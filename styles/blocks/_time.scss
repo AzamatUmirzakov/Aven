@@ -1,0 +1,32 @@
+$time-text-col: #373737;
+
+section.time {
+  padding: 100px 0;
+}
+
+div.time-inside {
+  text-align: center;
+  font-family: "Metropolis Medium";
+  color: $time-text-col;
+  p {
+    font-size: 1.4375em;
+    margin-bottom: 25px;
+  }
+  h1 {
+    font-size: 2.3125em;
+    max-width: 700px;
+    display: inline-block;
+    margin-bottom: 60px;
+    font-weight: normal;
+  }
+  div.time-buttons {
+    display: flex;
+    margin: 0 auto;
+    max-width: 500px;
+    justify-content: space-between;
+    a > img {
+      width: 200px;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+$feature-text-col: #5b5b5b;
+
+div.feature-block-inside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  div.feature-text {
+    max-width: 600px;
+    font-family: "Metropolis Medium";
+    h1 {
+      font-size: 2.5625em;
+      line-height: 55px;
+      margin-bottom: 80px;
+      font-weight: normal;
+    }
+    p {
+      line-height: 40px;
+      font-size: 1.375em;
+      color: $feature-text-col;
+    }
+  }
+}
+
+div.faith-community {
+  background: #fafafa;
+}
+
+div.key-events {
+  background: #fafafa;
+}
